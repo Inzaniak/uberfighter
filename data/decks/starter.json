@@ -1,0 +1,29 @@
+{
+    "Expansion": "Starter",
+    "Cards": [
+        {
+            "Description": "A Giraffe",
+            "Type": "Character"
+        },
+        {
+            "Description": "A Monkey",
+            "Type": "Character"
+        },
+        {
+            "Description": "With 4 Arms",
+            "Type": "Ability"
+        },
+        {
+            "Description": "With Super Intelligence",
+            "Type": "Ability"
+        },
+        {
+            "Description": "With No Legs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Bald",
+            "Type": "Ability"
+        }
+    ]
+}

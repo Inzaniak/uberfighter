@@ -1,0 +1,2005 @@
+{
+    "Expansion": "SuperFight",
+    "Cards": [
+        {
+            "Description": "10 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "10 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "10 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "10 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "10 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "100 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "100 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "100 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "100 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "3 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "3 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "3 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "3 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "3 stories tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "3-foot fingernails",
+            "Type": "Ability"
+        },
+        {
+            "Description": "50 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "50 of them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "6 inches tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "6 inches tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "9 feet tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "9 feet tall",
+            "Type": "Ability"
+        },
+        {
+            "Description": "acid blood",
+            "Type": "Ability"
+        },
+        {
+            "Description": "afraid of water",
+            "Type": "Ability"
+        },
+        {
+            "Description": "agoraphobic",
+            "Type": "Ability"
+        },
+        {
+            "Description": "allergic to all animals",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a bacon-wrapped baseball bat",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a barbed wore net",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a cannon",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a catapult and unlimited livestock",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a cattle prod",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a chainsaw",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a crowbar",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a flamethrower",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a freeze ray",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a harpoon gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a lightsaber",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a live t-rex on a stick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a long electrified whip",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a machine gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a nail gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a poison-tipped lance",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a portal gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a puppy musket",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a rocket launcher",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a sadness ray",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a samurai sword",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a shotgun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a shotgun that shoots shotguns",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a shrink ray",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a sniper rifle",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a superglue fire hose",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a tranquilizer gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with a trident",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with an  infinite sausage lasso",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with an impenetrable shield",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with Axe",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with catarangs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with Cupid's bow",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with dynamite",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with ghost pepper spray",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with holy hand grenades",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armed with nunchucks",
+            "Type": "Ability"
+        },
+        {
+            "Description": "armer with a bow and unlimited arrows",
+            "Type": "Ability"
+        },
+        {
+            "Description": "balancing on a circus ball",
+            "Type": "Ability"
+        },
+        {
+            "Description": "being guarded by the secret service",
+            "Type": "Ability"
+        },
+        {
+            "Description": "believes they are invisible",
+            "Type": "Ability"
+        },
+        {
+            "Description": "bionic",
+            "Type": "Ability"
+        },
+        {
+            "Description": "blank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "blank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "blank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "bottom half is_ draw another character card from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "bottom half is_ draw another character card from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "bottom half is_ play another character card from hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "bottom half is_ play another character card from hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "bottom half is_ play another character card from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "breathes fire",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can animate dirt",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can become any animal",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can become mist while holding breath",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can blow 200-mph winds",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can breathe underwater",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can change into a_ at will pick a character card from your hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can change into a_at will. pick a character card from your hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can clone self but each clone is half as smart as the previous",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can clone self but each clone is half the size of the previous",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can control gravity",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can control hair",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can control machines",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can control opponent's right hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can control plants",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can create a hologram of self",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can dig and run through tunnels with super speed",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can fly",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can fly but only two feet above the ground",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can fly if nobody is watching",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can hold breathe forever",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can kill with a kiss",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can make a force field while holding breath",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can match opponent's size",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can only be killed by beheading",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can only move by back flipping",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can only move when opponent moves",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can only see movement",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can possess opponent for 30 seconds then gets very tired",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can read minds",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can run 200 mph but only in a straight line",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can see 3 seconds into the future",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can stop time while holding breath",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can stretch like rubber",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can summon am army internet trolls",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can summon anything from a hardware store",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can take the form of anything the touch",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can take the form of anything water-based",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can teleport but goes blind for 10 seconds after each use",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can throw sticky bombs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can turn into any vehicle",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can turn invisible while singing snow tunes",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can turn to steel",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can walk through sold objects",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can't see",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can't stop clapping",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can't stop dancing",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can't stop laughing",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can't stop sobbing",
+            "Type": "Ability"
+        },
+        {
+            "Description": "can't turn left",
+            "Type": "Ability"
+        },
+        {
+            "Description": "carrying a baby",
+            "Type": "Ability"
+        },
+        {
+            "Description": "carrying way too many grocery bags",
+            "Type": "Ability"
+        },
+        {
+            "Description": "catlike reflexes",
+            "Type": "Ability"
+        },
+        {
+            "Description": "clothes are way too big",
+            "Type": "Ability"
+        },
+        {
+            "Description": "clothes are way too tight",
+            "Type": "Ability"
+        },
+        {
+            "Description": "constantly taking selfies",
+            "Type": "Ability"
+        },
+        {
+            "Description": "controls a tween army",
+            "Type": "Ability"
+        },
+        {
+            "Description": "controls all animals",
+            "Type": "Ability"
+        },
+        {
+            "Description": "controls an army of flying monkeys",
+            "Type": "Ability"
+        },
+        {
+            "Description": "controls magnetism",
+            "Type": "Ability"
+        },
+        {
+            "Description": "controls weather",
+            "Type": "Ability"
+        },
+        {
+            "Description": "covered in eyes",
+            "Type": "Ability"
+        },
+        {
+            "Description": "covered in spikes",
+            "Type": "Ability"
+        },
+        {
+            "Description": "distracted by shiny things",
+            "Type": "Ability"
+        },
+        {
+            "Description": "draw a character card as your 500-pound pet",
+            "Type": "Ability"
+        },
+        {
+            "Description": "draw a new character card with one new attribute as sidekick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "draw a new character card with one new attribute as your sidekick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "draw and play two random attributes from the deck discard this card after use",
+            "Type": "Ability"
+        },
+        {
+            "Description": "draw and play two random attributes from the deck discard this card after use",
+            "Type": "Ability"
+        },
+        {
+            "Description": "driving a tank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "driving popemobile",
+            "Type": "Ability"
+        },
+        {
+            "Description": "duplicate one opponent attribute",
+            "Type": "Ability"
+        },
+        {
+            "Description": "duplicate one opponent attribute",
+            "Type": "Ability"
+        },
+        {
+            "Description": "eliminate all attributes in this fight",
+            "Type": "Ability"
+        },
+        {
+            "Description": "entire body is very sticky",
+            "Type": "Ability"
+        },
+        {
+            "Description": "everything the touch turns to hummus",
+            "Type": "Ability"
+        },
+        {
+            "Description": "explodes if the stop moving",
+            "Type": "Ability"
+        },
+        {
+            "Description": "figuratively on fire ...and literally",
+            "Type": "Ability"
+        },
+        {
+            "Description": "floating down on a parachute",
+            "Type": "Ability"
+        },
+        {
+            "Description": "frost breath ",
+            "Type": "Ability"
+        },
+        {
+            "Description": "handcuffed to golf cart",
+            "Type": "Ability"
+        },
+        {
+            "Description": "hands are covered in butter",
+            "Type": "Ability"
+        },
+        {
+            "Description": "hands glued to hips",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a 6-foot neck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a battleship",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a beard made bees",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a hostage",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a magical unicorn horn",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a skunk on a stick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a time machine phone booth",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has a voodoo doll of opponent",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has an invisible cloak",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has an invisible jet",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has feet instead of hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has hands instead of feet",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has jellyfish instead of hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has majestic flamming antlers growing of head",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has no bones",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has one tiny baby arm",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has telekinesis",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has tiny bird legs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has tiny t-rex arms",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has two extra arms",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has two peg legs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has vertigo",
+            "Type": "Ability"
+        },
+        {
+            "Description": "has x-ray vision",
+            "Type": "Ability"
+        },
+        {
+            "Description": "heals 100 times faster than normal",
+            "Type": "Ability"
+        },
+        {
+            "Description": "horrible self-esteem",
+            "Type": "Ability"
+        },
+        {
+            "Description": "I'm a berserker rage",
+            "Type": "Ability"
+        },
+        {
+            "Description": "in a blimp",
+            "Type": "Ability"
+        },
+        {
+            "Description": "in a helicopter",
+            "Type": "Ability"
+        },
+        {
+            "Description": "in a hot air balloon",
+            "Type": "Ability"
+        },
+        {
+            "Description": "in a jet fighter",
+            "Type": "Ability"
+        },
+        {
+            "Description": "in a space suit",
+            "Type": "Ability"
+        },
+        {
+            "Description": "inside a giant hamster ball",
+            "Type": "Ability"
+        },
+        {
+            "Description": "inside a giant robotic_ draw a random character card",
+            "Type": "Ability"
+        },
+        {
+            "Description": "inside a giant robotic_ pick a character card from your hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "invisible",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a 1000 years old",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a baby",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a belieber and is convinced opponent means bieber bodily harm",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a hoarder",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a hypnotist",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a piñata",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a stuffed",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a super genius",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is a tween",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is amish",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is drunk",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is elderly",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is having a really good hair day",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is made of guacamole",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is rabid",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is radioactive",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is really hangry",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is really into fonts",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is really really good-looking",
+            "Type": "Ability"
+        },
+        {
+            "Description": "is really really stupid",
+            "Type": "Ability"
+        },
+        {
+            "Description": "just drank five energy drinks",
+            "Type": "Ability"
+        },
+        {
+            "Description": "killed by water",
+            "Type": "Ability"
+        },
+        {
+            "Description": "knows knug fu",
+            "Type": "Ability"
+        },
+        {
+            "Description": "laser eyes",
+            "Type": "Ability"
+        },
+        {
+            "Description": "lays exploding eggs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "leeches opponent's health when touched",
+            "Type": "Ability"
+        },
+        {
+            "Description": "literal jazz hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "literally wearing beer goggles",
+            "Type": "Ability"
+        },
+        {
+            "Description": "literally wearing heart on sleeve",
+            "Type": "Ability"
+        },
+        {
+            "Description": "locked in a antique diver's helmet",
+            "Type": "Ability"
+        },
+        {
+            "Description": "locked in a shark cage",
+            "Type": "Ability"
+        },
+        {
+            "Description": "long metal claws pop out of hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "made of lava",
+            "Type": "Ability"
+        },
+        {
+            "Description": "made of mirrors",
+            "Type": "Ability"
+        },
+        {
+            "Description": "made of paper",
+            "Type": "Ability"
+        },
+        {
+            "Description": "made of sand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "made of stone",
+            "Type": "Ability"
+        },
+        {
+            "Description": "megafighter!",
+            "Type": "Ability"
+        },
+        {
+            "Description": "morbidly obese",
+            "Type": "Ability"
+        },
+        {
+            "Description": "mustache can stretch and move at will",
+            "Type": "Ability"
+        },
+        {
+            "Description": "narcoleptic",
+            "Type": "Ability"
+        },
+        {
+            "Description": "no arms",
+            "Type": "Ability"
+        },
+        {
+            "Description": "no depth perception",
+            "Type": "Ability"
+        },
+        {
+            "Description": "no legs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "on a jet ski",
+            "Type": "Ability"
+        },
+        {
+            "Description": "on a pogo stick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "on a segway",
+            "Type": "Ability"
+        },
+        {
+            "Description": "on a velocipede",
+            "Type": "Ability"
+        },
+        {
+            "Description": "on stilts",
+            "Type": "Ability"
+        },
+        {
+            "Description": "only has one leg",
+            "Type": "Ability"
+        },
+        {
+            "Description": "pacifist",
+            "Type": "Ability"
+        },
+        {
+            "Description": "piloting an attack drone",
+            "Type": "Ability"
+        },
+        {
+            "Description": "pregnant",
+            "Type": "Ability"
+        },
+        {
+            "Description": "really clumsy",
+            "Type": "Ability"
+        },
+        {
+            "Description": "really really has to pee",
+            "Type": "Ability"
+        },
+        {
+            "Description": "relies on heat vision to see",
+            "Type": "Ability"
+        },
+        {
+            "Description": "relies on sonar to see",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a battle cat",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a broomstick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a depressed centaur",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a flying narwhal",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a horse",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a hoverboard",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a motorcycle",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a war elephant",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a_ draw a character from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "riding a_ draw a character from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "scissor hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "screams names of attacks before using them",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots acid",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots bees from mouth",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots blinding light from hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots glitter",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots laughing gas",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots lightning",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots poison darts from nose",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots tear gas",
+            "Type": "Ability"
+        },
+        {
+            "Description": "shoots webs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "slows time when eyes are closed",
+            "Type": "Ability"
+        },
+        {
+            "Description": "sonic scream",
+            "Type": "Ability"
+        },
+        {
+            "Description": "sprays neurotoxin",
+            "Type": "Ability"
+        },
+        {
+            "Description": "steal one attribute from opponent",
+            "Type": "Ability"
+        },
+        {
+            "Description": "steal one attribute from opponent discard this card after use",
+            "Type": "Ability"
+        },
+        {
+            "Description": "steal one attribute from opponent discard this card after use",
+            "Type": "Ability"
+        },
+        {
+            "Description": "steals opponent's abilities with a touch",
+            "Type": "Ability"
+        },
+        {
+            "Description": "stone gaze",
+            "Type": "Ability"
+        },
+        {
+            "Description": "suffering from delusions of grandeur",
+            "Type": "Ability"
+        },
+        {
+            "Description": "summons cats to do bidding",
+            "Type": "Ability"
+        },
+        {
+            "Description": "super endurance",
+            "Type": "Ability"
+        },
+        {
+            "Description": "super jump",
+            "Type": "Ability"
+        },
+        {
+            "Description": "super strength",
+            "Type": "Ability"
+        },
+        {
+            "Description": "swinging a shark on a chain",
+            "Type": "Ability"
+        },
+        {
+            "Description": "thinks the floor is actually lava",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throwing spears",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws 200-mph fastballs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws antiques",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws bears",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws burritos",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws fireballs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws knives",
+            "Type": "Ability"
+        },
+        {
+            "Description": "throws ninja stars",
+            "Type": "Ability"
+        },
+        {
+            "Description": "tongue can stretch and move at will",
+            "Type": "Ability"
+        },
+        {
+            "Description": "top half is_ draw another character card from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "top half is_ draw another character card from the deck",
+            "Type": "Ability"
+        },
+        {
+            "Description": "top half is_ play another character card from hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "top half is_ play another character card from hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "top half is_ play another character card from hand",
+            "Type": "Ability"
+        },
+        {
+            "Description": "trapped in a potato sack",
+            "Type": "Ability"
+        },
+        {
+            "Description": "two extra legs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "unaffected by impact",
+            "Type": "Ability"
+        },
+        {
+            "Description": "used to be a bear",
+            "Type": "Ability"
+        },
+        {
+            "Description": "uses the force",
+            "Type": "Ability"
+        },
+        {
+            "Description": "venomous bite",
+            "Type": "Ability"
+        },
+        {
+            "Description": "walking twelve wiener dogs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wall-crawler",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a flaming tutu",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a impenetrable tuxedo",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a jetpack",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a meat bikini",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a robotic exoskeleton",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a scuba suit",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a suit of armor",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing a tin foil hat",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing cement shoes",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing one of those comes they put on pets to keep them from licking themselves",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing rocket-powered roller skates",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing sharpened stilettos",
+            "Type": "Ability"
+        },
+        {
+            "Description": "wearing skis",
+            "Type": "Ability"
+        },
+        {
+            "Description": "with a prehensile tail",
+            "Type": "Ability"
+        },
+        {
+            "Description": "101 Dalmatians",
+            "Type": "Character"
+        },
+        {
+            "Description": "Abraham Lincoln",
+            "Type": "Character"
+        },
+        {
+            "Description": "alien",
+            "Type": "Character"
+        },
+        {
+            "Description": "angel",
+            "Type": "Character"
+        },
+        {
+            "Description": "apache warrior",
+            "Type": "Character"
+        },
+        {
+            "Description": "assassin",
+            "Type": "Character"
+        },
+        {
+            "Description": "barney",
+            "Type": "Character"
+        },
+        {
+            "Description": "billionaire playboy",
+            "Type": "Character"
+        },
+        {
+            "Description": "blank",
+            "Type": "Character"
+        },
+        {
+            "Description": "blank",
+            "Type": "Character"
+        },
+        {
+            "Description": "blank",
+            "Type": "Character"
+        },
+        {
+            "Description": "blob",
+            "Type": "Character"
+        },
+        {
+            "Description": "bodybuilder",
+            "Type": "Character"
+        },
+        {
+            "Description": "boy band",
+            "Type": "Character"
+        },
+        {
+            "Description": "boy scout",
+            "Type": "Character"
+        },
+        {
+            "Description": "Bruce lee",
+            "Type": "Character"
+        },
+        {
+            "Description": "bull",
+            "Type": "Character"
+        },
+        {
+            "Description": "cactus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Canada",
+            "Type": "Character"
+        },
+        {
+            "Description": "carnie",
+            "Type": "Character"
+        },
+        {
+            "Description": "Cat",
+            "Type": "Character"
+        },
+        {
+            "Description": "cheetah",
+            "Type": "Character"
+        },
+        {
+            "Description": "child beauty pageant queen",
+            "Type": "Character"
+        },
+        {
+            "Description": "chimpanzee",
+            "Type": "Character"
+        },
+        {
+            "Description": "chuck Norris",
+            "Type": "Character"
+        },
+        {
+            "Description": "coachella lineup",
+            "Type": "Character"
+        },
+        {
+            "Description": "College A Cappella Group",
+            "Type": "Character"
+        },
+        {
+            "Description": "Conan",
+            "Type": "Character"
+        },
+        {
+            "Description": "conjoined twins",
+            "Type": "Character"
+        },
+        {
+            "Description": "cowboy",
+            "Type": "Character"
+        },
+        {
+            "Description": "crazy cat lady",
+            "Type": "Character"
+        },
+        {
+            "Description": "Crocodile Hunter",
+            "Type": "Character"
+        },
+        {
+            "Description": "Darth Vader",
+            "Type": "Character"
+        },
+        {
+            "Description": "demon",
+            "Type": "Character"
+        },
+        {
+            "Description": "demon-possessed car",
+            "Type": "Character"
+        },
+        {
+            "Description": "dexter",
+            "Type": "Character"
+        },
+        {
+            "Description": "Disembodied Head",
+            "Type": "Character"
+        },
+        {
+            "Description": "dolphin",
+            "Type": "Character"
+        },
+        {
+            "Description": "dragon",
+            "Type": "Character"
+        },
+        {
+            "Description": "E.T.",
+            "Type": "Character"
+        },
+        {
+            "Description": "Eagle",
+            "Type": "Character"
+        },
+        {
+            "Description": "Electric Eel",
+            "Type": "Character"
+        },
+        {
+            "Description": "Emperor Penguin",
+            "Type": "Character"
+        },
+        {
+            "Description": "everyone at burning man",
+            "Type": "Character"
+        },
+        {
+            "Description": "evil doll",
+            "Type": "Character"
+        },
+        {
+            "Description": "fainting goat",
+            "Type": "Character"
+        },
+        {
+            "Description": "femme fatale",
+            "Type": "Character"
+        },
+        {
+            "Description": "Forrest Gump",
+            "Type": "Character"
+        },
+        {
+            "Description": "Frankenstein",
+            "Type": "Character"
+        },
+        {
+            "Description": "Freddy",
+            "Type": "Character"
+        },
+        {
+            "Description": "French bulldog",
+            "Type": "Character"
+        },
+        {
+            "Description": "Gandhi",
+            "Type": "Character"
+        },
+        {
+            "Description": "Genghis Khan",
+            "Type": "Character"
+        },
+        {
+            "Description": "George W. Bush",
+            "Type": "Character"
+        },
+        {
+            "Description": "giant squid",
+            "Type": "Character"
+        },
+        {
+            "Description": "giraffe",
+            "Type": "Character"
+        },
+        {
+            "Description": "girl scout",
+            "Type": "Character"
+        },
+        {
+            "Description": "gladiator",
+            "Type": "Character"
+        },
+        {
+            "Description": "Google",
+            "Type": "Character"
+        },
+        {
+            "Description": "gorilla",
+            "Type": "Character"
+        },
+        {
+            "Description": "grim reaper",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hannibal",
+            "Type": "Character"
+        },
+        {
+            "Description": "Heisenberg",
+            "Type": "Character"
+        },
+        {
+            "Description": "Helen Keller",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hermione",
+            "Type": "Character"
+        },
+        {
+            "Description": "high school marching band",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hillary Clinton",
+            "Type": "Character"
+        },
+        {
+            "Description": "hippo",
+            "Type": "Character"
+        },
+        {
+            "Description": "hipster",
+            "Type": "Character"
+        },
+        {
+            "Description": "hobo",
+            "Type": "Character"
+        },
+        {
+            "Description": "hockey player",
+            "Type": "Character"
+        },
+        {
+            "Description": "homer",
+            "Type": "Character"
+        },
+        {
+            "Description": "hulk",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hunchback",
+            "Type": "Character"
+        },
+        {
+            "Description": "identical twins",
+            "Type": "Character"
+        },
+        {
+            "Description": "iron man",
+            "Type": "Character"
+        },
+        {
+            "Description": "jack bauer",
+            "Type": "Character"
+        },
+        {
+            "Description": "Jason",
+            "Type": "Character"
+        },
+        {
+            "Description": "Justin bieber",
+            "Type": "Character"
+        },
+        {
+            "Description": "k-pop star",
+            "Type": "Character"
+        },
+        {
+            "Description": "Katniss",
+            "Type": "Character"
+        },
+        {
+            "Description": "Kindergarten Class",
+            "Type": "Character"
+        },
+        {
+            "Description": "leprechaun",
+            "Type": "Character"
+        },
+        {
+            "Description": "Literally Insane Clown Posse",
+            "Type": "Character"
+        },
+        {
+            "Description": "Lucha Libre Wrestler",
+            "Type": "Character"
+        },
+        {
+            "Description": "macgyver",
+            "Type": "Character"
+        },
+        {
+            "Description": "mad scientist",
+            "Type": "Character"
+        },
+        {
+            "Description": "mafia don",
+            "Type": "Character"
+        },
+        {
+            "Description": "Mario Brothers.",
+            "Type": "Character"
+        },
+        {
+            "Description": "marshmallow man",
+            "Type": "Character"
+        },
+        {
+            "Description": "Martha Stewart",
+            "Type": "Character"
+        },
+        {
+            "Description": "me",
+            "Type": "Character"
+        },
+        {
+            "Description": "Meat Loaf",
+            "Type": "Character"
+        },
+        {
+            "Description": "men in black",
+            "Type": "Character"
+        },
+        {
+            "Description": "mermaid",
+            "Type": "Character"
+        },
+        {
+            "Description": "Michael Jackson",
+            "Type": "Character"
+        },
+        {
+            "Description": "mike Tyson",
+            "Type": "Character"
+        },
+        {
+            "Description": "Miley Cyrus",
+            "Type": "Character"
+        },
+        {
+            "Description": "mime",
+            "Type": "Character"
+        },
+        {
+            "Description": "moose",
+            "Type": "Character"
+        },
+        {
+            "Description": "Mr. Rogers",
+            "Type": "Character"
+        },
+        {
+            "Description": "mummy",
+            "Type": "Character"
+        },
+        {
+            "Description": "Musketeer",
+            "Type": "Character"
+        },
+        {
+            "Description": "my boss",
+            "Type": "Character"
+        },
+        {
+            "Description": "my ex",
+            "Type": "Character"
+        },
+        {
+            "Description": "my significant other",
+            "Type": "Character"
+        },
+        {
+            "Description": "Nigerian prince",
+            "Type": "Character"
+        },
+        {
+            "Description": "ninja",
+            "Type": "Character"
+        },
+        {
+            "Description": "nudist",
+            "Type": "Character"
+        },
+        {
+            "Description": "Obama",
+            "Type": "Character"
+        },
+        {
+            "Description": "octopus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Olympic gymnast ",
+            "Type": "Character"
+        },
+        {
+            "Description": "Owl",
+            "Type": "Character"
+        },
+        {
+            "Description": "pet rock",
+            "Type": "Character"
+        },
+        {
+            "Description": "pick a celebrity",
+            "Type": "Character"
+        },
+        {
+            "Description": "pick a comic book character",
+            "Type": "Character"
+        },
+        {
+            "Description": "pick a movie character",
+            "Type": "Character"
+        },
+        {
+            "Description": "pick a TV character",
+            "Type": "Character"
+        },
+        {
+            "Description": "pick an action movie star",
+            "Type": "Character"
+        },
+        {
+            "Description": "pirate",
+            "Type": "Character"
+        },
+        {
+            "Description": "Polar Bear",
+            "Type": "Character"
+        },
+        {
+            "Description": "psychic",
+            "Type": "Character"
+        },
+        {
+            "Description": "pterodactyl",
+            "Type": "Character"
+        },
+        {
+            "Description": "Pukachu",
+            "Type": "Character"
+        },
+        {
+            "Description": "queen",
+            "Type": "Character"
+        },
+        {
+            "Description": "Rambo",
+            "Type": "Character"
+        },
+        {
+            "Description": "redneck",
+            "Type": "Character"
+        },
+        {
+            "Description": "Reggae Band",
+            "Type": "Character"
+        },
+        {
+            "Description": "Rhinoceros",
+            "Type": "Character"
+        },
+        {
+            "Description": "Robin Hood",
+            "Type": "Character"
+        },
+        {
+            "Description": "robot",
+            "Type": "Character"
+        },
+        {
+            "Description": "saber-toothed tiger",
+            "Type": "Character"
+        },
+        {
+            "Description": "samurai",
+            "Type": "Character"
+        },
+        {
+            "Description": "Sasquatch",
+            "Type": "Character"
+        },
+        {
+            "Description": "secret agent",
+            "Type": "Character"
+        },
+        {
+            "Description": "senior citizen bowling team",
+            "Type": "Character"
+        },
+        {
+            "Description": "shark",
+            "Type": "Character"
+        },
+        {
+            "Description": "sharpshooter",
+            "Type": "Character"
+        },
+        {
+            "Description": "Sherlock Holmes",
+            "Type": "Character"
+        },
+        {
+            "Description": "skeleton",
+            "Type": "Character"
+        },
+        {
+            "Description": "sloth",
+            "Type": "Character"
+        },
+        {
+            "Description": "smoke monster",
+            "Type": "Character"
+        },
+        {
+            "Description": "snake",
+            "Type": "Character"
+        },
+        {
+            "Description": "soccer mom",
+            "Type": "Character"
+        },
+        {
+            "Description": "spartan",
+            "Type": "Character"
+        },
+        {
+            "Description": "spider",
+            "Type": "Character"
+        },
+        {
+            "Description": "Stephen Hawking",
+            "Type": "Character"
+        },
+        {
+            "Description": "street fighter",
+            "Type": "Character"
+        },
+        {
+            "Description": "sumo wrestler",
+            "Type": "Character"
+        },
+        {
+            "Description": "supermodel",
+            "Type": "Character"
+        },
+        {
+            "Description": "swarm of killer bees",
+            "Type": "Character"
+        },
+        {
+            "Description": "t-rex",
+            "Type": "Character"
+        },
+        {
+            "Description": "Terminator",
+            "Type": "Character"
+        },
+        {
+            "Description": "the devil",
+            "Type": "Character"
+        },
+        {
+            "Description": "the doctor",
+            "Type": "Character"
+        },
+        {
+            "Description": "the dude",
+            "Type": "Character"
+        },
+        {
+            "Description": "the Illuminati",
+            "Type": "Character"
+        },
+        {
+            "Description": "the kardashians",
+            "Type": "Character"
+        },
+        {
+            "Description": "the player to your left",
+            "Type": "Character"
+        },
+        {
+            "Description": "the pope",
+            "Type": "Character"
+        },
+        {
+            "Description": "The Statue of library",
+            "Type": "Character"
+        },
+        {
+            "Description": "the u.n.",
+            "Type": "Character"
+        },
+        {
+            "Description": "turtle",
+            "Type": "Character"
+        },
+        {
+            "Description": "ultimate fighting cgampion",
+            "Type": "Character"
+        },
+        {
+            "Description": "unicorn",
+            "Type": "Character"
+        },
+        {
+            "Description": "vampire",
+            "Type": "Character"
+        },
+        {
+            "Description": "vampire slayer",
+            "Type": "Character"
+        },
+        {
+            "Description": "vegan",
+            "Type": "Character"
+        },
+        {
+            "Description": "velociraptor",
+            "Type": "Character"
+        },
+        {
+            "Description": "viking",
+            "Type": "Character"
+        },
+        {
+            "Description": "werewolf",
+            "Type": "Character"
+        },
+        {
+            "Description": "Whale",
+            "Type": "Character"
+        },
+        {
+            "Description": "willy wonka",
+            "Type": "Character"
+        },
+        {
+            "Description": "witch",
+            "Type": "Character"
+        },
+        {
+            "Description": "Wizard",
+            "Type": "Character"
+        },
+        {
+            "Description": "wooly mammoth",
+            "Type": "Character"
+        },
+        {
+            "Description": "Your Mom",
+            "Type": "Character"
+        },
+        {
+            "Description": "Zombie",
+            "Type": "Character"
+        }
+    ]
+}

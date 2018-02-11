@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="list-group">
+        <a href="/game?game_id={gameid}" class="list-group-item clearfix">
+            <span class="glyphicon glyphicon-file"></span>
+            {gamename}
+            <span class="pull-right">
+                <form action="/delete_game">
+                    <input type="hidden" name="gameid" value="{gameid}">
+                    <button class="btn btn-xs btn-warning">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </button>
+                </form>
+            </span>
+        </a>
+    </div>
+</div>
