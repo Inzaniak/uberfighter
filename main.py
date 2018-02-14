@@ -100,7 +100,10 @@ class Root(object):
                         order by random()''',(g_id,)).fetchall()
         for num,p in enumerate(start_pl):
             pl_id = conn.execute('select PlayerID from Logins where PlayerName = ?',(p[2].lower(),)).fetchone()[0]
-            conn.execute('insert into GamesTurns (GameID,PlayerID,Turn) VALUES (?,?,?)',(g_id,pl_id,num+1))
+            if num==0:
+                conn.execute('insert into GamesTurns (GameID,PlayerID,Turn,Current) VALUES (?,?,?,?)',(g_id,pl_id,num+1,1))
+            else:
+                conn.execute('insert into GamesTurns (GameID,PlayerID,Turn,Current) VALUES (?,?,?,?)',(g_id,pl_id,num+1,0))
         pla_id = conn.execute('select PlayerID from Logins where PlayerName = ?',(start_pl[0][2].lower(),)).fetchone()[0]
         plb_id = conn.execute('select PlayerID from Logins where PlayerName = ?',(start_pl[1][2].lower(),)).fetchone()[0]
         conn.execute('insert into GamesActual (GameID,PlayerA,PlayerB,Phase) VALUES (?,?,?,?)',(g_id,pla_id,plb_id,'Play'))
@@ -152,7 +155,8 @@ class Root(object):
             select gt.*,playerName from GamesTurns gt
             left join logins l
             on l.PlayerID = gt.PlayerID
-            where gameid = ?""",(game_id,)).fetchall()
+            where gameid = ?
+            order by Turn""",(game_id,)).fetchall()
         pl_temp = open('html/templates/players.html','r',encoding='utf-8').read()
         pl_num = len(pl_list)
         pl_list_out = []
