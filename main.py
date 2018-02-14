@@ -231,7 +231,18 @@ class Root(object):
     def getGameData(self,game_id):
         conn = sqlite3.connect('data/db.db')
         table = conn.execute('select * from GamesTable where GameID = ? order by [Order]',(game_id,)).fetchall()
-        return {
+        pl_list = conn.execute("""
+            select gt.*,playerName from GamesTurns gt
+            left join logins l
+            on l.PlayerID = gt.PlayerID
+            where gameid = ?""",(game_id,)).fetchall()
+        player_dict = {}
+        for pl in pl_list:
+            if pl[3]==0:
+                player_dict['pl'+str(pl[2])]='#FF6F6F'
+            else:
+                player_dict['pl'+str(pl[2])]='#0e7a00'
+        out_dict = {
                  'table_c_a' : conn.execute('select * from Decks where CardID = ?',(table[0][2],)).fetchone()[3]
                 ,'table_a_aa' : conn.execute('select * from Decks where CardID = ?',(table[1][2],)).fetchone()[3]
                 ,'table_a_ab' : conn.execute('select * from Decks where CardID = ?',(table[2][2],)).fetchone()[3]
@@ -239,6 +250,7 @@ class Root(object):
                 ,'table_a_ba' : conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[3]
                 ,'table_a_bb' : conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[3]
         }
+        return {**player_dict,**out_dict}
 
 
 if __name__ == '__main__':

@@ -13,6 +13,11 @@ function get_game_data(){
       $('#table_c_b').text(response.table_c_b);
       $('#table_a_ba').text(response.table_a_ba);
       $('#table_a_bb').text(response.table_a_bb);
+      $('#pl1').css("background", response.pl1);
+      $('#pl1').css("border-color", response.pl1);
+      $('#pl2').css("background", response.pl2);
+      $('#pl2').css("border-color", response.pl2);
+      
     });
     request.fail(function(jqXHR, textStatus) 
     {
