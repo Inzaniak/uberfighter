@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/static/js/gamerefresh.js"></script>
+    <script>var gameID = {g_id}</script>
     <link rel="stylesheet" href="static/css/home.css">
 </head>
 
@@ -51,22 +53,29 @@
 
     <div class="container">
         <div class="row">
+            {players_list}
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <div class="row">
             <div class="col-sm-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">CHARACTER</div>
-                    <div class="panel-body">{table_c_a}</div>
+                    <div class="panel-body" id="table_c_a">{table_c_a}</div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-danger">
                     <div class="panel-heading">ABILITY</div>
-                    <div class="panel-body">{table_a_aa}</div>
+                    <div class="panel-body" id="table_a_aa">{table_a_aa}</div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-danger">
                     <div class="panel-heading">ABILITY</div>
-                    <div class="panel-body">{table_a_ab}</div>
+                    <div class="panel-body" id="table_a_ab">{table_a_ab}</div>
                 </div>
             </div>
         </div>
@@ -78,19 +87,19 @@
             <div class="col-sm-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">CHARACTER</div>
-                    <div class="panel-body">{table_c_b}</div>
+                    <div class="panel-body" id="table_c_b">{table_c_b}</div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-danger">
                     <div class="panel-heading">ABILITY</div>
-                    <div class="panel-body">{table_a_ba}</div>
+                    <div class="panel-body" id="table_a_ba">{table_a_ba}</div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-danger">
                     <div class="panel-heading">ABILITY</div>
-                    <div class="panel-body">{table_a_bb}</div>
+                    <div class="panel-body" id="table_a_bb">{table_a_bb}</div>
                 </div>
             </div>
         </div>

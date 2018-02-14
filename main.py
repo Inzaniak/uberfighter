@@ -148,7 +148,19 @@ class Root(object):
         pl_id = conn.execute('select PlayerID from Logins where PlayerName = ?',(cherrypy.session['username'].lower(),)).fetchone()[0]
         table = conn.execute('select * from GamesTable where GameID = ? order by [Order]',(game_id,)).fetchall()
         hand = conn.execute('select * from GamesHand where GameID = ? and PlayerID = ? order by [Order]',(game_id,pl_id)).fetchall()
-        print(hand)
+        pl_list = conn.execute("""
+            select gt.*,playerName from GamesTurns gt
+            left join logins l
+            on l.PlayerID = gt.PlayerID
+            where gameid = ?""",(game_id,)).fetchall()
+        pl_temp = open('html/templates/players.html','r',encoding='utf-8').read()
+        pl_num = len(pl_list)
+        pl_list_out = []
+        for pl in pl_list:
+            if pl[3]==1:
+                pl_list_out.append(pl_temp.format(player_size=int(12/pl_num),player_num=pl[2],player_name=pl[4].capitalize(),color='#0e7a00'))
+            else:
+                pl_list_out.append(pl_temp.format(player_size=int(12/pl_num),player_num=pl[2],player_name=pl[4].capitalize(),color='#FF6F6F'))
         page = page.format(
                 table_c_a=conn.execute('select * from Decks where CardID = ?',(table[0][2],)).fetchone()[3]
                 ,table_a_aa=conn.execute('select * from Decks where CardID = ?',(table[1][2],)).fetchone()[3]
@@ -169,6 +181,7 @@ class Root(object):
                 ,hand_a_b_id=hand[4][2]
                 ,hand_a_c_id=hand[5][2]
                 ,g_id = game_id
+                ,players_list='\n'.join(pl_list_out)
                 )
         return page
 
@@ -201,9 +214,31 @@ class Root(object):
             card = conn.execute("SELECT * FROM GamesRemainingCards where GameID = ? and [Type] = 'Ability' ORDER BY RANDOM() LIMIT 1 ",(g_id,)).fetchone()
             conn.execute("delete from GamesRemainingCards where CardID = ? and GameID = ? ",(card[1],g_id))
             conn.execute('update GamesHand set CardID = ? where GameID = ? and [Order] = ? and PlayerID = ?',(card[1],g_id,i,pl_id))
+        turns = conn.execute('select * from GamesTurns where gameid = ? order by turn',(g_id,)).fetchall()
+        max_pl = max([t[2] for t in turns])
+        curr_pl = [t for t in turns if t[3]==1][0][2]
+        if curr_pl==max_pl:
+            conn.execute('update GamesTurns set Current = 0 where Current = 1 and GameID = ?',(g_id,))
+            conn.execute('update GamesTurns set Current = 1 where Turn = 1 and GameID = ?',(g_id,))
+        else:
+            conn.execute('update GamesTurns set Current = 0 where Current = 1 and GameID = ?',(g_id,))
+            conn.execute('update GamesTurns set Current = 1 where Turn = ? and GameID = ?',(curr_pl+1,g_id))
         conn.commit()
         raise cherrypy.HTTPRedirect("/game?game_id={}".format(g_id))
         
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def getGameData(self,game_id):
+        conn = sqlite3.connect('data/db.db')
+        table = conn.execute('select * from GamesTable where GameID = ? order by [Order]',(game_id,)).fetchall()
+        return {
+                 'table_c_a' : conn.execute('select * from Decks where CardID = ?',(table[0][2],)).fetchone()[3]
+                ,'table_a_aa' : conn.execute('select * from Decks where CardID = ?',(table[1][2],)).fetchone()[3]
+                ,'table_a_ab' : conn.execute('select * from Decks where CardID = ?',(table[2][2],)).fetchone()[3]
+                ,'table_c_b' : conn.execute('select * from Decks where CardID = ?',(table[3][2],)).fetchone()[3]
+                ,'table_a_ba' : conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[3]
+                ,'table_a_bb' : conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[3]
+        }
 
 
 if __name__ == '__main__':
