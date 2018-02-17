@@ -11,4 +11,4 @@ def import_deck(path):
     conn.commit()
     print('Deck Added')
 
-import_deck('data/decks/meme.json')
+import_deck('data/decks/superfight.json')
