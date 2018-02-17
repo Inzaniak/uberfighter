@@ -19,8 +19,8 @@ function get_game_data(){
       $('#pl2').css("border-color", response.pl2);
       
     });
-    request.fail(function(jqXHR, textStatus) 
-    {
-      alert('Request failed: ' + textStatus);
-    });
+    // request.fail(function(jqXHR, textStatus) 
+    // {
+    //   alert('Request failed: ' + textStatus);
+    // });
 }
