@@ -31,7 +31,22 @@ function get_game_data(){
       $('#pl3').css("border-color", response.pl3);
       $('#pl4').css("background", response.pl4);
       $('#pl4').css("border-color", response.pl4);
-      
+      $('#pl5').css("background", response.pl5);
+      $('#pl5').css("border-color", response.pl5);
+      $('#pl6').css("background", response.pl6);
+      $('#pl6').css("border-color", response.pl6);
+      $('#pl7').css("background", response.pl7);
+      $('#pl7').css("border-color", response.pl7);
+      $('#pl8').css("background", response.pl8);
+      $('#pl8').css("border-color", response.pl8);
+      $('#pl9').css("background", response.pl9);
+      $('#pl9').css("border-color", response.pl9);
+      $('#pl10').css("background", response.pl10);
+      $('#pl10').css("border-color", response.pl10);
+      $('#pl11').css("background", response.pl11);
+      $('#pl11').css("border-color", response.pl11);
+      $('#pl12').css("background", response.pl12);
+      $('#pl12').css("border-color", response.pl12);
     });
     // request.fail(function(jqXHR, textStatus) 
     // {
