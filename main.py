@@ -114,7 +114,10 @@ class Root(object):
         conn.execute('insert into GamesTable (GameID,PlayerId,CardID,Position,[Order]) VALUES (?,?,?,?,?)',(g_id,2,0,'table_c_b',4))
         conn.execute('insert into GamesTable (GameID,PlayerId,CardID,Position,[Order]) VALUES (?,?,?,?,?)',(g_id,2,0,'table_a_ba',5))
         conn.execute('insert into GamesTable (GameID,PlayerId,CardID,Position,[Order]) VALUES (?,?,?,?,?)',(g_id,2,0,'table_a_bb',6))
+        conn.execute('insert into GamesTable (GameID,PlayerId,CardID,Position,[Order]) VALUES (?,?,?,?,?)',(g_id,0,0,'table_l',7))
+        conn.execute('insert into GamesTable (GameID,PlayerId,CardID,Position,[Order]) VALUES (?,?,?,?,?)',(g_id,0,0,'table_e',8))
         conn.execute('insert into GamesRemainingCards select ?,CardID,Type from decks d inner join gamesexpansions ge on d.Expansion = ge.ExpansionName and ge.GameID = ?',(g_id,g_id))
+        # Init Hand
         for p in start_pl:
             for i in range(1,4):
                 pl_id = conn.execute('select PlayerID from Logins where PlayerName = ?',(p[2].lower(),)).fetchone()[0]
@@ -172,12 +175,16 @@ class Root(object):
                 ,table_c_b=conn.execute('select * from Decks where CardID = ?',(table[3][2],)).fetchone()[3]
                 ,table_a_ba=conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[3]
                 ,table_a_bb=conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[3]
+                ,table_l=conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[3]
+                ,table_e=conn.execute('select * from Decks where CardID = ?',(table[7][2],)).fetchone()[3]
                 ,table_c_ae=conn.execute('select * from Decks where CardID = ?',(table[0][2],)).fetchone()[1]
                 ,table_a_aae=conn.execute('select * from Decks where CardID = ?',(table[1][2],)).fetchone()[1]
                 ,table_a_abe=conn.execute('select * from Decks where CardID = ?',(table[2][2],)).fetchone()[1]
                 ,table_c_be=conn.execute('select * from Decks where CardID = ?',(table[3][2],)).fetchone()[1]
                 ,table_a_bae=conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[1]
                 ,table_a_bbe=conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[1]
+                ,table_le=conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[1]
+                ,table_ee=conn.execute('select * from Decks where CardID = ?',(table[7][2],)).fetchone()[1]
                 ,hand_c_a=conn.execute('select * from Decks where CardID = ?',(hand[0][2],)).fetchone()[3]
                 ,hand_c_b=conn.execute('select * from Decks where CardID = ?',(hand[1][2],)).fetchone()[3]
                 ,hand_c_c=conn.execute('select * from Decks where CardID = ?',(hand[2][2],)).fetchone()[3]
@@ -203,7 +210,7 @@ class Root(object):
 
     @cherrypy.expose
     def change_table(self,g_id,c_to_play,a_to_play,pl):
-        print(g_id,c_to_play,a_to_play,pl)
+        # print(g_id,c_to_play,a_to_play,pl)
         conn = sqlite3.connect('data/db.db')
         if pl == "1":
             conn.execute('update GamesTable set CardID = ? where PlayerID = ? and GameID = ? and [Order] = 1',(c_to_play,1,g_id))
@@ -239,9 +246,22 @@ class Root(object):
         else:
             conn.execute('update GamesTurns set Current = 0 where Current = 1 and GameID = ?',(g_id,))
             conn.execute('update GamesTurns set Current = 1 where Turn = ? and GameID = ?',(curr_pl+1,g_id))
+        # Azzero l'evento
+        conn.execute('update GamesTable set CardID = ? where PlayerID = ? and GameID = ? and [Order] = 8',(0,0,g_id))
+        # Nuova location
+        location = conn.execute("SELECT * FROM GamesRemainingCards where GameID = ? and [Type] = 'Location' ORDER BY RANDOM() LIMIT 1 ",(g_id,)).fetchone()
+        conn.execute('update GamesTable set CardID = ? where PlayerID = ? and GameID = ? and [Order] = 7',(location[1],0,g_id))
         conn.commit()
         raise cherrypy.HTTPRedirect("/game?game_id={}".format(g_id))
-        
+    
+    @cherrypy.expose
+    def play_event(self,g_id):
+        conn = sqlite3.connect('data/db.db')
+        card = conn.execute("SELECT * FROM GamesRemainingCards where GameID = ? and [Type] = 'Event' ORDER BY RANDOM() LIMIT 1 ",(g_id,)).fetchone()
+        conn.execute('update GamesTable set CardID = ? where PlayerID = ? and GameID = ? and [Order] = 8',(card[1],0,g_id))
+        conn.commit()
+        raise cherrypy.HTTPRedirect("/game?game_id={}".format(g_id))
+
     @cherrypy.expose
     @cherrypy.tools.json_out()
     def getGameData(self,game_id):
@@ -265,6 +285,16 @@ class Root(object):
                 ,'table_c_b' : conn.execute('select * from Decks where CardID = ?',(table[3][2],)).fetchone()[3]
                 ,'table_a_ba' : conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[3]
                 ,'table_a_bb' : conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[3]
+                ,'table_l' : conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[3]
+                ,'table_e' : conn.execute('select * from Decks where CardID = ?',(table[7][2],)).fetchone()[3]
+                ,'table_c_ae' : conn.execute('select * from Decks where CardID = ?',(table[0][2],)).fetchone()[1]
+                ,'table_a_aae' : conn.execute('select * from Decks where CardID = ?',(table[1][2],)).fetchone()[1]
+                ,'table_a_abe' : conn.execute('select * from Decks where CardID = ?',(table[2][2],)).fetchone()[1]
+                ,'table_c_be' : conn.execute('select * from Decks where CardID = ?',(table[3][2],)).fetchone()[1]
+                ,'table_a_bae' : conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[1]
+                ,'table_a_bbe' : conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[1]
+                ,'table_le' : conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[1]
+                ,'table_ee' : conn.execute('select * from Decks where CardID = ?',(table[7][2],)).fetchone()[1]
         }
         return {**player_dict,**out_dict}
 
