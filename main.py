@@ -263,6 +263,24 @@ class Root(object):
         raise cherrypy.HTTPRedirect("/game?game_id={}".format(g_id))
 
     @cherrypy.expose
+    def draw_char(self,g_id):
+        conn = sqlite3.connect('data/db.db')
+        card = conn.execute("SELECT * FROM GamesRemainingCards where GameID = ? and [Type] = 'Character' ORDER BY RANDOM() LIMIT 1 ",(g_id,)).fetchone()
+        conn.execute("delete from GamesRemainingCards where CardID = ? and GameID = ? ",(card[1],g_id))
+        desc = conn.execute('select * from Decks where CardID = ?',(card[1],)).fetchone()[3]
+        conn.commit()
+        return desc
+    
+    @cherrypy.expose
+    def draw_ability(self,g_id):
+        conn = sqlite3.connect('data/db.db')
+        card = conn.execute("SELECT * FROM GamesRemainingCards where GameID = ? and [Type] = 'Ability' ORDER BY RANDOM() LIMIT 1 ",(g_id,)).fetchone()
+        conn.execute("delete from GamesRemainingCards where CardID = ? and GameID = ? ",(card[1],g_id))
+        desc = conn.execute('select * from Decks where CardID = ?',(card[1],)).fetchone()[3]
+        conn.commit()
+        return desc
+
+    @cherrypy.expose
     @cherrypy.tools.json_out()
     def getGameData(self,game_id):
         conn = sqlite3.connect('data/db.db')
