@@ -1,0 +1,1037 @@
+{
+    "Expansion": "History",
+    "Cards": [
+        {
+            "Description": "Jesus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Napoleon",
+            "Type": "Character"
+        },
+        {
+            "Description": "Muhammad",
+            "Type": "Character"
+        },
+        {
+            "Description": "William Shakespeare",
+            "Type": "Character"
+        },
+        {
+            "Description": "Abraham Lincoln",
+            "Type": "Character"
+        },
+        {
+            "Description": "George Washington",
+            "Type": "Character"
+        },
+        {
+            "Description": "Adolf Hitler",
+            "Type": "Character"
+        },
+        {
+            "Description": "Aristotle",
+            "Type": "Character"
+        },
+        {
+            "Description": "Alexander the Great",
+            "Type": "Character"
+        },
+        {
+            "Description": "Thomas Jefferson",
+            "Type": "Character"
+        },
+        {
+            "Description": "Henry VIII of England",
+            "Type": "Character"
+        },
+        {
+            "Description": "Charles Darwin",
+            "Type": "Character"
+        },
+        {
+            "Description": "Elizabeth I of England",
+            "Type": "Character"
+        },
+        {
+            "Description": "Karl Marx",
+            "Type": "Character"
+        },
+        {
+            "Description": "Julius Caesar",
+            "Type": "Character"
+        },
+        {
+            "Description": "Queen Victoria",
+            "Type": "Character"
+        },
+        {
+            "Description": "Martin Luther",
+            "Type": "Character"
+        },
+        {
+            "Description": "Joseph Stalin",
+            "Type": "Character"
+        },
+        {
+            "Description": "Albert Einstein",
+            "Type": "Character"
+        },
+        {
+            "Description": "Christopher Columbus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Isaac Newton",
+            "Type": "Character"
+        },
+        {
+            "Description": "Charlemagne",
+            "Type": "Character"
+        },
+        {
+            "Description": "Theodore Roosevelt",
+            "Type": "Character"
+        },
+        {
+            "Description": "Wolfgang Amadeus Mozart",
+            "Type": "Character"
+        },
+        {
+            "Description": "Plato",
+            "Type": "Character"
+        },
+        {
+            "Description": "Louis XIV of France",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ludwig van Beethoven",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ulysses S. Grant",
+            "Type": "Character"
+        },
+        {
+            "Description": "Leonardo da Vinci",
+            "Type": "Character"
+        },
+        {
+            "Description": "Augustus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Carl Linnaeus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ronald Reagan",
+            "Type": "Character"
+        },
+        {
+            "Description": "Charles Dickens",
+            "Type": "Character"
+        },
+        {
+            "Description": "Paul the Apostle",
+            "Type": "Character"
+        },
+        {
+            "Description": "Benjamin Franklin",
+            "Type": "Character"
+        },
+        {
+            "Description": "George W. Bush",
+            "Type": "Character"
+        },
+        {
+            "Description": "Winston Churchill",
+            "Type": "Character"
+        },
+        {
+            "Description": "Genghis Khan",
+            "Type": "Character"
+        },
+        {
+            "Description": "Charles I of England",
+            "Type": "Character"
+        },
+        {
+            "Description": "Thomas Edison",
+            "Type": "Character"
+        },
+        {
+            "Description": "James I of England",
+            "Type": "Character"
+        },
+        {
+            "Description": "Friedrich Nietzsche",
+            "Type": "Character"
+        },
+        {
+            "Description": "Franklin D. Roosevelt",
+            "Type": "Character"
+        },
+        {
+            "Description": "Sigmund Freud",
+            "Type": "Character"
+        },
+        {
+            "Description": "Alexander Hamilton",
+            "Type": "Character"
+        },
+        {
+            "Description": "Mohandas Karamchand Gandhi",
+            "Type": "Character"
+        },
+        {
+            "Description": "Woodrow Wilson",
+            "Type": "Character"
+        },
+        {
+            "Description": "Johann Sebastian Bach",
+            "Type": "Character"
+        },
+        {
+            "Description": "Galileo Galilei",
+            "Type": "Character"
+        },
+        {
+            "Description": "Oliver Cromwell",
+            "Type": "Character"
+        },
+        {
+            "Description": "James Madison",
+            "Type": "Character"
+        },
+        {
+            "Description": "Gautama Buddha",
+            "Type": "Character"
+        },
+        {
+            "Description": "Mark Twain",
+            "Type": "Character"
+        },
+        {
+            "Description": "Edgar Allan Poe",
+            "Type": "Character"
+        },
+        {
+            "Description": "Joseph Smith, Jr.",
+            "Type": "Character"
+        },
+        {
+            "Description": "Adam Smith",
+            "Type": "Character"
+        },
+        {
+            "Description": "David, King of Israel",
+            "Type": "Character"
+        },
+        {
+            "Description": "George III of the United Kingdom",
+            "Type": "Character"
+        },
+        {
+            "Description": "Immanuel Kant",
+            "Type": "Character"
+        },
+        {
+            "Description": "James Cook",
+            "Type": "Character"
+        },
+        {
+            "Description": "John Adams",
+            "Type": "Character"
+        },
+        {
+            "Description": "Richard Wagner",
+            "Type": "Character"
+        },
+        {
+            "Description": "Pyotr Ilyich Tchaikovsky",
+            "Type": "Character"
+        },
+        {
+            "Description": "Voltaire",
+            "Type": "Character"
+        },
+        {
+            "Description": "Saint Peter",
+            "Type": "Character"
+        },
+        {
+            "Description": "Andrew Jackson",
+            "Type": "Character"
+        },
+        {
+            "Description": "Constantine the Great",
+            "Type": "Character"
+        },
+        {
+            "Description": "Socrates",
+            "Type": "Character"
+        },
+        {
+            "Description": "Elvis Presley",
+            "Type": "Character"
+        },
+        {
+            "Description": "William the Conqueror",
+            "Type": "Character"
+        },
+        {
+            "Description": "John F. Kennedy",
+            "Type": "Character"
+        },
+        {
+            "Description": "Augustine of Hippo",
+            "Type": "Character"
+        },
+        {
+            "Description": "Vincent van Gogh",
+            "Type": "Character"
+        },
+        {
+            "Description": "Nicolaus Copernicus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Vladimir Lenin",
+            "Type": "Character"
+        },
+        {
+            "Description": "Robert E. Lee",
+            "Type": "Character"
+        },
+        {
+            "Description": "Oscar Wilde",
+            "Type": "Character"
+        },
+        {
+            "Description": "Charles II of England",
+            "Type": "Character"
+        },
+        {
+            "Description": "Cicero",
+            "Type": "Character"
+        },
+        {
+            "Description": "Jean-Jacques Rousseau",
+            "Type": "Character"
+        },
+        {
+            "Description": "Francis Bacon",
+            "Type": "Character"
+        },
+        {
+            "Description": "Richard Nixon",
+            "Type": "Character"
+        },
+        {
+            "Description": "Louis XVI of France",
+            "Type": "Character"
+        },
+        {
+            "Description": "Charles V, Holy Roman Emperor",
+            "Type": "Character"
+        },
+        {
+            "Description": "King Arthur",
+            "Type": "Character"
+        },
+        {
+            "Description": "Michelangelo",
+            "Type": "Character"
+        },
+        {
+            "Description": "Philip II of Spain",
+            "Type": "Character"
+        },
+        {
+            "Description": "Johann Wolfgang von Goethe",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ali, founder of Sufism",
+            "Type": "Character"
+        },
+        {
+            "Description": "Thomas Aquinas",
+            "Type": "Character"
+        },
+        {
+            "Description": "Pope John Paul II",
+            "Type": "Character"
+        },
+        {
+            "Description": "René Descartes",
+            "Type": "Character"
+        },
+        {
+            "Description": "Nikola Tesla",
+            "Type": "Character"
+        },
+        {
+            "Description": "Harry S. Truman",
+            "Type": "Character"
+        },
+        {
+            "Description": "Joan of Arc",
+            "Type": "Character"
+        },
+        {
+            "Description": "Dante Alighieri",
+            "Type": "Character"
+        },
+        {
+            "Description": "Otto von Bismarck",
+            "Type": "Character"
+        },
+        {
+            "Description": "Grover Cleveland",
+            "Type": "Character"
+        },
+        {
+            "Description": "John Calvin",
+            "Type": "Character"
+        },
+        {
+            "Description": "John Locke",
+            "Type": "Character"
+        },
+        {
+            "Description": "Great Pyramid of Giza",
+            "Type": "Location"
+        },
+        {
+            "Description": "Colosseum",
+            "Type": "Location"
+        },
+        {
+            "Description": "Taj Mahal",
+            "Type": "Location"
+        },
+        {
+            "Description": "Great Wall of China",
+            "Type": "Location"
+        },
+        {
+            "Description": "Machu Picchu",
+            "Type": "Location"
+        },
+        {
+            "Description": "Great Sphinx of Giza",
+            "Type": "Location"
+        },
+        {
+            "Description": "Acropolis of Athens",
+            "Type": "Location"
+        },
+        {
+            "Description": "Stonehenge",
+            "Type": "Location"
+        },
+        {
+            "Description": "Sistine Chapel",
+            "Type": "Location"
+        },
+        {
+            "Description": "Pantheon",
+            "Type": "Location"
+        },
+        {
+            "Description": "Leaning Tower of Pisa",
+            "Type": "Location"
+        },
+        {
+            "Description": "Versailles",
+            "Type": "Location"
+        },
+        {
+            "Description": "Statue of Liberty",
+            "Type": "Location"
+        },
+        {
+            "Description": "St. Peter's Basilica",
+            "Type": "Location"
+        },
+        {
+            "Description": "Angkor Wat",
+            "Type": "Location"
+        },
+        {
+            "Description": "Parthenon",
+            "Type": "Location"
+        },
+        {
+            "Description": "Forbidden City",
+            "Type": "Location"
+        },
+        {
+            "Description": "Neuschwanstein Castle",
+            "Type": "Location"
+        },
+        {
+            "Description": "Tower of London",
+            "Type": "Location"
+        },
+        {
+            "Description": "Sydney Opera House",
+            "Type": "Location"
+        },
+        {
+            "Description": "Terracotta Army",
+            "Type": "Location"
+        },
+        {
+            "Description": "Chichen Itza",
+            "Type": "Location"
+        },
+        {
+            "Description": "Westminster Abbey",
+            "Type": "Location"
+        },
+        {
+            "Description": "Grand Canal",
+            "Type": "Location"
+        },
+        {
+            "Description": "Mount Rushmore National Memorial",
+            "Type": "Location"
+        },
+        {
+            "Description": "Mount Everest",
+            "Type": "Location"
+        },
+        {
+            "Description": "Buckingham Palace",
+            "Type": "Location"
+        },
+        {
+            "Description": "Santorini",
+            "Type": "Location"
+        },
+        {
+            "Description": "The Louvre",
+            "Type": "Location"
+        },
+        {
+            "Description": "Sagrada Família",
+            "Type": "Location"
+        },
+        {
+            "Description": "Moscow Kremlin",
+            "Type": "Location"
+        },
+        {
+            "Description": "White House",
+            "Type": "Location"
+        },
+        {
+            "Description": "Gettysburg",
+            "Type": "Location"
+        },
+        {
+            "Description": "Notre Dame de Paris",
+            "Type": "Location"
+        },
+        {
+            "Description": "Temple Mount",
+            "Type": "Location"
+        },
+        {
+            "Description": "Piazza San Marco",
+            "Type": "Location"
+        },
+        {
+            "Description": "Times Square",
+            "Type": "Location"
+        },
+        {
+            "Description": "Big Ben",
+            "Type": "Location"
+        },
+        {
+            "Description": "Golden Gate Bridge",
+            "Type": "Location"
+        },
+        {
+            "Description": "Edinburgh Castle",
+            "Type": "Location"
+        },
+        {
+            "Description": "Lincoln Memorial",
+            "Type": "Location"
+        },
+        {
+            "Description": "Florence Cathedral",
+            "Type": "Location"
+        },
+        {
+            "Description": "Saint Basil's Cathedral",
+            "Type": "Location"
+        },
+        {
+            "Description": "Omaha Beach",
+            "Type": "Location"
+        },
+        {
+            "Description": "Easter Island",
+            "Type": "Location"
+        },
+        {
+            "Description": "Saint Mark's Basilica",
+            "Type": "Location"
+        },
+        {
+            "Description": "Globe Theatre, London",
+            "Type": "Location"
+        },
+        {
+            "Description": "Alcatraz Island",
+            "Type": "Location"
+        },
+        {
+            "Description": "Cristo Redentor",
+            "Type": "Location"
+        },
+        {
+            "Description": "Ephesus",
+            "Type": "Location"
+        },
+        {
+            "Description": "Milan Cathedral",
+            "Type": "Location"
+        },
+        {
+            "Description": "Alhambra",
+            "Type": "Location"
+        },
+        {
+            "Description": "Dachau concentration camp",
+            "Type": "Location"
+        },
+        {
+            "Description": "The Last Supper",
+            "Type": "Location"
+        },
+        {
+            "Description": "Cathedral of Santiago de Compostela",
+            "Type": "Location"
+        },
+        {
+            "Description": "Himeji Castle",
+            "Type": "Location"
+        },
+        {
+            "Description": "Uluru",
+            "Type": "Location"
+        },
+        {
+            "Description": "Winter Palace",
+            "Type": "Location"
+        },
+        {
+            "Description": "Piazza della Signoria",
+            "Type": "Location"
+        },
+        {
+            "Description": "Mosque–Cathedral of Córdoba",
+            "Type": "Location"
+        },
+        {
+            "Description": "Prague Castle",
+            "Type": "Location"
+        },
+        {
+            "Description": "Hoover Dam",
+            "Type": "Location"
+        },
+        {
+            "Description": "Panama Canal",
+            "Type": "Location"
+        },
+        {
+            "Description": "Nazca",
+            "Type": "Location"
+        },
+        {
+            "Description": "Monastery of the Holy Trinity, Meteora",
+            "Type": "Location"
+        },
+        {
+            "Description": "Vienna State Opera",
+            "Type": "Location"
+        },
+        {
+            "Description": "Swiss Alps",
+            "Type": "Location"
+        },
+        {
+            "Description": "Sultan Ahmed Mosque",
+            "Type": "Location"
+        },
+        {
+            "Description": "National World War II Memorial",
+            "Type": "Location"
+        },
+        {
+            "Description": "Thomas Jefferson Memorial",
+            "Type": "Location"
+        },
+        {
+            "Description": "Chartres Cathedral",
+            "Type": "Location"
+        },
+        {
+            "Description": "Topkapı Palace",
+            "Type": "Location"
+        },
+        {
+            "Description": "Petra",
+            "Type": "Location"
+        },
+        {
+            "Description": "Basilica of Saint Anthony of Padua",
+            "Type": "Location"
+        },
+        {
+            "Description": "Abu Simbel temples",
+            "Type": "Location"
+        },
+        {
+            "Description": "Casa Milà",
+            "Type": "Location"
+        },
+        {
+            "Description": "Alcázar of Segovia",
+            "Type": "Location"
+        },
+        {
+            "Description": "Bourbon Street",
+            "Type": "Location"
+        },
+        {
+            "Description": "Basilica of the Sacré Cœur",
+            "Type": "Location"
+        },
+        {
+            "Description": "Medina",
+            "Type": "Location"
+        },
+        {
+            "Description": "Potala Palace",
+            "Type": "Location"
+        },
+        {
+            "Description": "Alamo Mission in San Antonio",
+            "Type": "Location"
+        },
+        {
+            "Description": "Siena Cathedral",
+            "Type": "Location"
+        },
+        {
+            "Description": "Kaaba",
+            "Type": "Location"
+        },
+        {
+            "Description": "Balmoral Castle",
+            "Type": "Location"
+        },
+        {
+            "Description": "Budapest Parliament",
+            "Type": "Location"
+        },
+        {
+            "Description": "Hagia Sophia",
+            "Type": "Location"
+        },
+        {
+            "Description": "Casa Batlló",
+            "Type": "Location"
+        },
+        {
+            "Description": "Amritsar",
+            "Type": "Location"
+        },
+        {
+            "Description": "Toledo Cathedral",
+            "Type": "Location"
+        },
+        {
+            "Description": "Brandenburg Gate",
+            "Type": "Location"
+        },
+        {
+            "Description": "Basilica of the Fourteen Holy Helpers",
+            "Type": "Location"
+        },
+        {
+            "Description": "Hala Sultan Tekke",
+            "Type": "Location"
+        },
+        {
+            "Description": "Palais-Royal",
+            "Type": "Location"
+        },
+        {
+            "Description": "USS Arizona Memorial",
+            "Type": "Location"
+        },
+        {
+            "Description": "Auschwitz concentraion camp WOII",
+            "Type": "Location"
+        },
+        {
+            "Description": "Chrysler Building",
+            "Type": "Location"
+        },
+        {
+            "Description": "Wies Church",
+            "Type": "Location"
+        },
+        {
+            "Description": "Karnak",
+            "Type": "Location"
+        },
+        {
+            "Description": "Ellis Island",
+            "Type": "Location"
+        },
+        {
+            "Description": "Armed with Goujian",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Durandal",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Honjo Masamune",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Sword Of Mercy",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Joyeuse",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Twin Dragon Swords",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Mons Meg",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with The Holy Lance",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Betsy",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Grasscutter",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Tick-Licker",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Tizona",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Zulfiqar",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Krummlauf",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Nuclear Landmines Kept Warm by Chickens",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Improvised Peshmerga Tanks",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Weaponized Animals",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a Antonov A-40 Flying Tank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Schwerer Gustav",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a Ushakov's Flying Submarine",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Davy Crockett Nuclear Rifle",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Kugelpanzer",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a Japanese Sucide Weapons",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Bob Semple Tank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Progvev-T",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Double Barrel Cannon",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with The Gun That Fired Square Bullets",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a Tsar Tank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a The Aircraft Carrier Made of Ice",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a Corkscrew Tank",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Driving a Flying Aircraft Carriers",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with Remote Controlled Tracked Mines",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Longbow",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Longsword",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Mace",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Katana",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Battle Axe",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Spear",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Ballista",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Gladius",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a War Hammer",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Scimitar",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Haladie",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Ranseur",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Knightly Sword",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Flail",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Bardiche",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Caltrops",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Zweihaender",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Shuriken",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Horeseman's Pick",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Pike",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Hunga Munga",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Triple Dagger",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Urumi",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Chakram",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Lantern Shield",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed with a Sodegarami",
+            "Type": "Ability"
+        }
+    ]
+}

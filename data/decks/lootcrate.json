@@ -1,0 +1,689 @@
+{
+    "Expansion": "Lootcrate",
+    "Cards": [
+        {
+            "Description": "Amazon Warrior",
+            "Type": "Character"
+        },
+        {
+            "Description": "Animorph",
+            "Type": "Character"
+        },
+        {
+            "Description": "Army Of Skeletons",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ash",
+            "Type": "Character"
+        },
+        {
+            "Description": "Blank",
+            "Type": "Character"
+        },
+        {
+            "Description": "Carnivorous Plant",
+            "Type": "Character"
+        },
+        {
+            "Description": "Derby Girl",
+            "Type": "Character"
+        },
+        {
+            "Description": "Dr. Horrible",
+            "Type": "Character"
+        },
+        {
+            "Description": "France",
+            "Type": "Character"
+        },
+        {
+            "Description": "Godzilla",
+            "Type": "Character"
+        },
+        {
+            "Description": "Goliath",
+            "Type": "Character"
+        },
+        {
+            "Description": "Grizzly Bear",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hercules",
+            "Type": "Character"
+        },
+        {
+            "Description": "Honey Badger",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hydra",
+            "Type": "Character"
+        },
+        {
+            "Description": "Iron Giant",
+            "Type": "Character"
+        },
+        {
+            "Description": "Kaiju",
+            "Type": "Character"
+        },
+        {
+            "Description": "Keanu Reeves",
+            "Type": "Character"
+        },
+        {
+            "Description": "King Kong",
+            "Type": "Character"
+        },
+        {
+            "Description": "King Rather",
+            "Type": "Character"
+        },
+        {
+            "Description": "Literal Teen Wolf",
+            "Type": "Character"
+        },
+        {
+            "Description": "Loch Ness Monster",
+            "Type": "Character"
+        },
+        {
+            "Description": "Mothra",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ocelot",
+            "Type": "Character"
+        },
+        {
+            "Description": "Poltergeist",
+            "Type": "Character"
+        },
+        {
+            "Description": "Prince Charming",
+            "Type": "Character"
+        },
+        {
+            "Description": "Raccoon",
+            "Type": "Character"
+        },
+        {
+            "Description": "Sandy Cheeks",
+            "Type": "Character"
+        },
+        {
+            "Description": "Star Lord",
+            "Type": "Character"
+        },
+        {
+            "Description": "Stegosaurus",
+            "Type": "Character"
+        },
+        {
+            "Description": "Sushi Chef",
+            "Type": "Character"
+        },
+        {
+            "Description": "Swarm Of Piranhas",
+            "Type": "Character"
+        },
+        {
+            "Description": "The Common Cold",
+            "Type": "Character"
+        },
+        {
+            "Description": "The Navy",
+            "Type": "Character"
+        },
+        {
+            "Description": "The Player To Your Right",
+            "Type": "Character"
+        },
+        {
+            "Description": "Trapper",
+            "Type": "Character"
+        },
+        {
+            "Description": "Two Teibbles",
+            "Type": "Character"
+        },
+        {
+            "Description": "Water Buffalo",
+            "Type": "Character"
+        },
+        {
+            "Description": "Yeti",
+            "Type": "Character"
+        },
+        {
+            "Description": "Motoboy",
+            "Type": "Character"
+        },
+        {
+            "Description": "Advogado",
+            "Type": "Character"
+        },
+        {
+            "Description": "Hebe",
+            "Type": "Character"
+        },
+        {
+            "Description": "Enéas Carneiro",
+            "Type": "Character"
+        },
+        {
+            "Description": "Arnold Schwarzenegger",
+            "Type": "Character"
+        },
+        {
+            "Description": "Sylvester Stallone",
+            "Type": "Character"
+        },
+        {
+            "Description": "Jean Claude Van Damme",
+            "Type": "Character"
+        },
+        {
+            "Description": "Dolph Lundgren",
+            "Type": "Character"
+        },
+        {
+            "Description": "Predator",
+            "Type": "Character"
+        },
+        {
+            "Description": "R2D2",
+            "Type": "Character"
+        },
+        {
+            "Description": "Legolas",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ozzy Osbourne",
+            "Type": "Character"
+        },
+        {
+            "Description": "Zangief",
+            "Type": "Character"
+        },
+        {
+            "Description": "C'thulhu",
+            "Type": "Character"
+        },
+        {
+            "Description": "Vladmir Putin",
+            "Type": "Character"
+        },
+        {
+            "Description": "Agent Smith",
+            "Type": "Character"
+        },
+        {
+            "Description": "Kid Bengala",
+            "Type": "Character"
+        },
+        {
+            "Description": "Ryu",
+            "Type": "Character"
+        },
+        {
+            "Description": "Dirty Harry",
+            "Type": "Character"
+        },
+        {
+            "Description": "Armed With A Dubstep Gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Gatling Gun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Lightsaber That Has Two Smaller Lightsabers Sticking Out Of The Hilt",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Machete",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Piranha Launcher",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Railgun",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Really Really Bright Laser Pointer",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armed With A Surface-to-air Missile Launcher",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Armer With A Limitless Loot Crate",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Bitten By A Radioactive_ Draw A Random Character Card",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Call Orbital Bombardments",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Fly...at The Speed Of Molasses",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Leap Over Tall Buildings In A Single Bound",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Only Be Killer By A Shot To The Head",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Only Be Killer By A Stake Through The Heart",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Summon Infinite Trampolines",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Cannons Instead Of Hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Chained To Their Evil Twin",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Commands An Amry Of Disposable Minions",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Covered In Gasoline",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Everything They Touch Turns Inside Out",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Flaming Hands",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Has An Enormous Exposed Brain",
+            "Type": "Ability"
+        },
+        {
+            "Description": "In A Flying Saucer",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Is Faster Than A Speeding Bullet",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Is Really Really Emotional",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Is Really Really Good At Parkour ...really",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Leading A Team Of Trained Velociraptors",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Literally A Gift",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Machine Guns For Legs",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Regrows Body Parts At Will",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Riding A Nuclear Missile",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Shoots Lasers Out Of Ears",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Stuck In One Of Those Electric Cars For Toddlers",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Swinging A Two-ton Tuna",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Throws Water Billions Filled With Acid",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Using A_ As A Club Draw A Random Character Card",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Wearing A Bubble Wrap Suit",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Wearing A Scuba Suit",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Wrapped In Toilet Paper",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Piloting A Gundam",
+            "Type": "Ability"
+        },
+        {
+            "Description": "It Has The Memory Eraser Of The MIB, But It Does Not Have Dark Glasses",
+            "Type": "Ability"
+        },
+        {
+            "Description": "There Is A Genius Who Fulfills A Desire",
+            "Type": "Ability"
+        },
+        {
+            "Description": "You Can Turn Coke Into Pepsi",
+            "Type": "Ability"
+        },
+        {
+            "Description": "It Has The Power To Have All The Powers",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Piloting A Dodge Charger",
+            "Type": "Ability"
+        },
+        {
+            "Description": "WOLOLO (convert A Player To Your Team)",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Inflates When You Feel Threatened",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Releases Paint When Threatened",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Grow A Second Nose Anywhere In Your Body",
+            "Type": "Ability"
+        },
+        {
+            "Description": "It Has Wings But Can Not Fly",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Can Predict Events After They Happen",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Has Penises In Place Of Fingers",
+            "Type": "Ability"
+        },
+        {
+            "Description": "It Has Six Nipples",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Know All 150 Original Pokemons",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Ability To Play Any Musical Instrument Perfectly",
+            "Type": "Ability"
+        },
+        {
+            "Description": "Crashing Airplane With One Parachute",
+            "Type": "Location"
+        },
+        {
+            "Description": "Deep In The Amazon Rainforest",
+            "Type": "Location"
+        },
+        {
+            "Description": "Desert Island",
+            "Type": "Location"
+        },
+        {
+            "Description": "Dessert Island",
+            "Type": "Location"
+        },
+        {
+            "Description": "Godzilla's Stomach",
+            "Type": "Location"
+        },
+        {
+            "Description": "Mars Colony",
+            "Type": "Location"
+        },
+        {
+            "Description": "Old Rope Bridge Over Lava",
+            "Type": "Location"
+        },
+        {
+            "Description": "On A Roller Coaster",
+            "Type": "Location"
+        },
+        {
+            "Description": "The Slope Of An Erupting Volcano",
+            "Type": "Location"
+        },
+        {
+            "Description": "Undersea Research Station",
+            "Type": "Location"
+        },
+        {
+            "Description": "On Top Of A Skyscraper",
+            "Type": "Location"
+        },
+        {
+            "Description": "In Outer Space",
+            "Type": "Location"
+        },
+        {
+            "Description": "Dangerously Close To A Black Hole",
+            "Type": "Location"
+        },
+        {
+            "Description": "In An MST Camp",
+            "Type": "Location"
+        },
+        {
+            "Description": "In A Giant Gugu's Bathtub",
+            "Type": "Location"
+        },
+        {
+            "Description": "At The Wedding Of His / Her Ex",
+            "Type": "Location"
+        },
+        {
+            "Description": "On A Nudist Beach",
+            "Type": "Location"
+        },
+        {
+            "Description": "Inside A Pokeball",
+            "Type": "Location"
+        },
+        {
+            "Description": "Namekusei",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Middle Of London",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Middle Of The Desert",
+            "Type": "Location"
+        },
+        {
+            "Description": "On The Nazi Lunar Base",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Favela",
+            "Type": "Location"
+        },
+        {
+            "Description": "On The Dark Side Of The Moon",
+            "Type": "Location"
+        },
+        {
+            "Description": "In An Anime Convention",
+            "Type": "Location"
+        },
+        {
+            "Description": "In A Turkish Prison",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Park Of Dinosaurs",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Jurassic Period",
+            "Type": "Location"
+        },
+        {
+            "Description": "On Top Of The Itaipu Dam",
+            "Type": "Location"
+        },
+        {
+            "Description": "In A Gay Sauna",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Midst Of An Orgy Of The Elderly",
+            "Type": "Location"
+        },
+        {
+            "Description": "In Medieval Japan",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The White House Oval Hall",
+            "Type": "Location"
+        },
+        {
+            "Description": "At Hogwarts",
+            "Type": "Location"
+        },
+        {
+            "Description": "De_Dust_2",
+            "Type": "Location"
+        },
+        {
+            "Description": "On An Iceberg",
+            "Type": "Location"
+        },
+        {
+            "Description": "In A Dark Alleyway",
+            "Type": "Location"
+        },
+        {
+            "Description": "In The Batcave",
+            "Type": "Location"
+        },
+        {
+            "Description": "Everyone is in a helicopter",
+            "Type": "Event"
+        },
+        {
+            "Description": "Everyone has a chainsaw",
+            "Type": "Event"
+        },
+        {
+            "Description": "Everyone has guns that sneeze gasoline",
+            "Type": "Event"
+        },
+        {
+            "Description": "Everyone is jumping from bungee jump to side by side",
+            "Type": "Event"
+        },
+        {
+            "Description": "All are inside a giant robot",
+            "Type": "Event"
+        },
+        {
+            "Description": "All are in a medieval fight",
+            "Type": "Event"
+        },
+        {
+            "Description": "All are on a giant ___ (buy a character card)",
+            "Type": "Event"
+        },
+        {
+            "Description": "All are blind and deaf",
+            "Type": "Event"
+        },
+        {
+            "Description": "Gravity is upside down",
+            "Type": "Event"
+        },
+        {
+            "Description": "Morgan Freeman is narrating the battle and everyone can hear it",
+            "Type": "Event"
+        },
+        {
+            "Description": "The place will self-destruct in 5 minutes.",
+            "Type": "Event"
+        },
+        {
+            "Description": "Zombie apocalypse",
+            "Type": "Event"
+        },
+        {
+            "Description": "All are in a video clip from the 2000s",
+            "Type": "Event"
+        },
+        {
+            "Description": "All are being pursued by border patrol",
+            "Type": "Event"
+        },
+        {
+            "Description": "The place is being invaded by demons",
+            "Type": "Event"
+        },
+        {
+            "Description": "Literally raining pocketknives",
+            "Type": "Event"
+        },
+        {
+            "Description": "Everybody is driving a kart",
+            "Type": "Event"
+        },
+        {
+            "Description": "Everyone is competing on Rainbow Road",
+            "Type": "Event"
+        },
+        {
+            "Description": "Everyone is chasing after a cheese wheel downhill",
+            "Type": "Event"
+        }
+    ]
+}
