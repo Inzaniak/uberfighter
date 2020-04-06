@@ -148,6 +148,19 @@ class Root(object):
         raise cherrypy.HTTPRedirect("/games")
 
     @cherrypy.expose
+    def vote(self,character,game_id):
+        conn = sqlite3.connect('data/db.db')
+        if character == "1":
+            print('VOTE TO 1')
+            conn.execute('UPDATE GamesActual SET PlayerAVotes = IFNULL(PlayerAVotes,0) +1 WHERE GameID = ?',(game_id,))
+            conn.commit()
+        if character == "2":
+            print('VOTE TO 2')
+            conn.execute('UPDATE GamesActual SET PlayerBVotes = IFNULL(PlayerBVotes,0) +1 WHERE GameID = ?',(game_id,))
+            conn.commit()
+        return "1"
+
+    @cherrypy.expose
     def game(self,game_id):
         page = open('html/game.html').read()
         conn = sqlite3.connect('data/db.db')
@@ -178,9 +191,11 @@ class Root(object):
                 ,table_l=conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[3]
                 ,table_e=conn.execute('select * from Decks where CardID = ?',(table[7][2],)).fetchone()[3]
                 ,table_c_ae=conn.execute('select * from Decks where CardID = ?',(table[0][2],)).fetchone()[1]
+                ,table_c_av=conn.execute('select playeravotes from gamesactual where GameID = ?', (game_id,)).fetchone()[0]
                 ,table_a_aae=conn.execute('select * from Decks where CardID = ?',(table[1][2],)).fetchone()[1]
                 ,table_a_abe=conn.execute('select * from Decks where CardID = ?',(table[2][2],)).fetchone()[1]
                 ,table_c_be=conn.execute('select * from Decks where CardID = ?',(table[3][2],)).fetchone()[1]
+                ,table_c_bv=conn.execute('select playerbvotes from gamesactual where GameID = ?', (game_id,)).fetchone()[0]
                 ,table_a_bae=conn.execute('select * from Decks where CardID = ?',(table[4][2],)).fetchone()[1]
                 ,table_a_bbe=conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[1]
                 ,table_le=conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[1]
@@ -251,6 +266,7 @@ class Root(object):
         # Nuova location
         location = conn.execute("SELECT * FROM GamesRemainingCards where GameID = ? and [Type] = 'Location' ORDER BY RANDOM() LIMIT 1 ",(g_id,)).fetchone()
         conn.execute('update GamesTable set CardID = ? where PlayerID = ? and GameID = ? and [Order] = 7',(location[1],0,g_id))
+        conn.execute('UPDATE gamesactual SET resetvotes = 1 where GameID = ?', (game_id,)).fetchone()[0]
         conn.commit()
         raise cherrypy.HTTPRedirect("/game?game_id={}".format(g_id))
     
@@ -313,6 +329,9 @@ class Root(object):
                 ,'table_a_bbe' : conn.execute('select * from Decks where CardID = ?',(table[5][2],)).fetchone()[1]
                 ,'table_le' : conn.execute('select * from Decks where CardID = ?',(table[6][2],)).fetchone()[1]
                 ,'table_ee' : conn.execute('select * from Decks where CardID = ?',(table[7][2],)).fetchone()[1]
+                ,'table_c_av' : 'Votes: {}'.format(conn.execute('select playeravotes from gamesactual where GameID = ?', (game_id,)).fetchone()[0])
+                ,'table_c_bv' : 'Votes: {}'.format(conn.execute('select playerbvotes from gamesactual where GameID = ?', (game_id,)).fetchone()[0])
+                ,'reset_votes' : conn.execute('select resetvotes from gamesactual where GameID = ?', (game_id,)).fetchone()[0]
         }
         return {**player_dict,**out_dict}
 

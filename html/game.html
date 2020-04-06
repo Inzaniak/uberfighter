@@ -69,10 +69,13 @@
         <h3>Table:</h3>
         <div class="row">
             <div class="col-sm-4">
+                <div id="charactera" onclick="send_vote(1,{g_id})" style="cursor: pointer;">
                 <div class="panel panel-primary">
                     <div class="panel-heading">CHARACTER</div>
                     <div class="panel-body" id="table_c_a">{table_c_a}</div>
+                    <div class="panel-danger" id="table_c_av" style="text-align: right; margin-right: 2px">Votes: {table_c_av}</div>
                     <div class="panel-danger" id="table_c_ae" style="text-align: right; margin-right: 2px">{table_c_ae}</div>
+                </div>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -96,11 +99,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
+                <div id="characterb" onclick="send_vote(2,{g_id})" style="cursor: pointer;">
                 <div class="panel panel-primary">
                     <div class="panel-heading">CHARACTER</div>
                     <div class="panel-body" id="table_c_b">{table_c_b}</div>
+                    <div class="panel-danger" id="table_c_bv" style="text-align: right; margin-right: 2px">Votes: {table_c_bv}</div>
                     <div class="panel-danger" id="table_c_be" style="text-align: right; margin-right: 2px">{table_c_be}</div>
                 </div>
+            </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-danger">
